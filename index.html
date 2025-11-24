@@ -7,18 +7,18 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      function go() {
+        window.location.href = "https://gtic.lovable.app";
+      }
+    </script>
   </head>
 
   <body 
-    style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; font-family:sans-serif;"
+    onclick="go()"
+    style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; font-size:24px; font-family:sans-serif; user-select:none; cursor:pointer;"
   >
-
-    <button
-      onclick="window.location.href='https://gtic.lovable.app';"
-      style="padding:15px 30px; font-size:18px; border-radius:12px; border:none; background:#007aff; color:white; cursor:pointer;"
-    >
-      Tap to Enter GTIC
-    </button>
-
+    Tap anywhere to continue
   </body>
 </html>
